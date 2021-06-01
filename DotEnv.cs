@@ -16,6 +16,7 @@ namespace dotenv_in_dotnet
             {
                 var parts = line.Split(
                     '=',
+                    2,
                     StringSplitOptions.RemoveEmptyEntries);
 
                 if (parts.Length != 2)

@@ -21,6 +21,7 @@ namespace dotenv_in_dotnet
 
             WriteLine(config["FOO"]);
             WriteLine(config["HELLO"]);
+            WriteLine(config["SOMETHING_IN_BASE64"]);
         }
     }
 }
